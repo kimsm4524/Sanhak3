@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_inout"
+        android:enabled="true"
+        android:checked="true"
+        android:title="@string/inout" />
+    <item
+        android:id="@+id/balance"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_balance"
+        android:enabled="true"
+        android:title="@string/balance" />
+    <item
+        android:id="@+id/pattern"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_pattern"
+        android:enabled="true"
+        android:title="@string/pattern" />
+    <item
+        android:id="@+id/card"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_card"
+        android:enabled="true"
+        android:title="@string/card" />
+    <item
+        android:id="@+id/community"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_community"
+        android:enabled="true"
+        android:title="@string/community" />
+
+</menu>
